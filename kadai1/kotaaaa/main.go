@@ -26,7 +26,10 @@ func main() {
 	fmt.Println("targetPath:", targetPath)
 	targetPath = targetPath + "/"
 	// Get file list (Relative path from basePath)
-	fileNames := search.GetFiles(targetPath, targetSrcExt)
+	fileNames, err := search.GetFiles(targetPath, targetSrcExt)
+	if err != nil {
+		fmt.Println("Error Occuerrd ", err)
+	}
 
 	for _, fileName := range fileNames {
 		fileInfo := convert.NewFileInfo(fileName, targetDstExt, targetPath)
