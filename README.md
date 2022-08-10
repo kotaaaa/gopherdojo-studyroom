@@ -1,19 +1,13 @@
-# Gopher道場 自習室
-[Gopher道場 自習室](https://gopherdojo.org/studyroom)用のリポジトリです。
+# Gopher Dojo Self-study Room
+Repository for [Gopher Dojo Study Room](https://gopherdojo.org/studyroom).
+Please refer to each README.md file about detail information.
 
-## 課題の提出方法
+# kadai1
+Image extension converter tool
 
-1回目の課題を提出する場合は次のようにコードを書いて下さい。
+# kadai3-1
+CLI Typing Game
 
-* このリポジトリをフォークしてください
-  * フォークしなくても直接プッシュできる場合はフォークせずに直接プッシュしてPRを送っても大丈夫です
-* ブランチ名を`kadai1-tenntenn`のようにする
-* `kadai1/tenntenn`のようにディレクトリを作る
-* READMEに説明や文章による課題の回答を書く
-* PRを送る
+# kadai4
+Implemented API that return your fortune randomly.
 
-## レビューについて
-
-* Slackの`#studyroom`チャンネルでレビューを呼びかけてみてください。
-* PRは必ずレビューされる訳ではありません。
-* 他の人のPRも積極的にレビューをしてみましょう！
