@@ -40,11 +40,11 @@ ok      github.com/kotaaaa/gopherdojo-studyroom/kadai1/kotaaaa/validator        
 $./converter --help
 Usage of /var/folders/nx/xqljz2y954qbyppfwn4w0tcr0000gn/T/go-build027276676/b001/exe/main:
   -dstExt string
-        変換後の拡張子 (default ".png")
+        Extension after conversion (default ".png")
   -path string
         ファイルパス
   -srcExt string
-        変換前の拡張子 (default ".jpg")
+        Extension before conversion (default ".jpg")
 exit status 2
 ```
 
