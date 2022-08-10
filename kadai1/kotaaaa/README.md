@@ -1,16 +1,18 @@
 # Specification
-- 次の仕様を満たすコマンドを作って下さい
-  - ディレクトリを指定する
-  - 指定したディレクトリ以下のJPGファイルをPNGに変換（デフォルト）
-  - ディレクトリ以下は再帰的に処理する
-  - 変換前と変換後の画像形式を指定できる（オプション）
-- 以下を満たすように開発してください
-  - mainパッケージと分離する
-  - 自作パッケージと標準パッケージと準標準パッケージのみ使う
-  - 準標準パッケージ：golang.org/x以下のパッケージ
-  - ユーザ定義型を作ってみる
-  - GoDocを生成してみる
-  - Go Modulesを使ってみる
+- Create a command that meets the following specifications
+  - Specify a directory
+  - Convert JPG files under the specified directory to PNG (default)
+  - Recursively process below the directory
+  - Can specify image format before and after conversion (optional)
+- Please develop the command to meet the following requirements
+  - Separate from main package
+  - Use only home-made packages, standard packages, and semi-standard packages
+  - Semi-standard packages: packages under golang.org/x
+  - Create user-defined types
+  - Try to generate GoDoc
+  - Try to use Go Modules
+
+Translated with www.DeepL.com/Translator (free version)
 
 # How to use
 ```
