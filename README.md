@@ -2,12 +2,12 @@
 Repository for [Gopher Dojo Study Room](https://gopherdojo.org/studyroom).
 Please refer to each README.md file about detail information.
 
-# kadai1
+# img_converter
 Image extension converter tool
 
-# kadai3-1
+# typing_game
 CLI Typing Game
 
-# kadai4
+# fortune_api
 Implemented API that return your fortune randomly.
 
